@@ -8,7 +8,8 @@
 
 def has_common(set_1: set, set_2: set) -> bool:
     # TODO вставить код сюда
-    result = None
+    result = not set_1.isdisjoint(set_2)
+    print(result)
     return result
 
 
