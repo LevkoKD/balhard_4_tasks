@@ -22,6 +22,8 @@ def add_to_list(s_list: list, element: str) -> list:
     :return: список покупок
     """
     # TODO вставить код сюда
+    s_list.append(element)
+    print(s_list)
     return s_list
 
 
